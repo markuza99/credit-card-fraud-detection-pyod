@@ -5,6 +5,7 @@ Provera prevarnih kreditnih transakcija upotrebom algoritama toolkit-a pyod
     <li>pandas</li>
     <li>numpy</li>
     <li>matplotlib</li>
+    <li>tensorflow</li>
     <li>pyod</li>
     <li>skleanr</li>
     <li>scikitplot</li>
