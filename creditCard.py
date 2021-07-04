@@ -27,7 +27,7 @@ negative = data[data["Class"]== 0]
 #print("negative:{}".format(len(negative)))
 
 #zbog perfomansi, smanjujemo prvobitni dataset
-new_data = pd.concat([positive,negative[:10000]])
+new_data = pd.concat([positive,negative])
 
 #hist za sve atribute
 new_data.hist(bins = 50, figsize = (20,20))
@@ -107,7 +107,7 @@ plt.show()
 
 y_test_pred = clf_if.predict(X_test)
 y_test_scores = clf_if.decision_function(X_test)
-print("Evaluacija AutoEncoder test:")
+print("Evaluacija Isolation Forest test:")
 evaluate_print("IForest", y_test, y_test_scores)
 skplt.metrics.plot_confusion_matrix(y_test,y_test_pred, normalize=False,title="Matrica konfuzije za Isolation Forest nad test skupom")
 plt.show()
