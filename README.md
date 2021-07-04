@@ -10,4 +10,5 @@ Provera prevarnih kreditnih transakcija upotrebom algoritama toolkit-a pyod
     <li>scikitplot</li>
     <li>seaborn</li>
 </ul>
-<h1>Program mozete pokrenuti upotrebom željenog IDE ili iz terminala/komandne linije</h1>
+<p>Pre pokretanja programa morate unzipovati creditcard.zip fajl.</p>
+<p>Program mozete pokrenuti upotrebom željenog IDE ili iz terminala/komandne linije.<p>
